@@ -1,0 +1,138 @@
+*{
+    font-family: Didot, serif;
+    width: 1280px;
+    margin: auto;
+}
+header{
+    padding: 50px;
+    width:auto;
+    font-size: 25px;
+    text-align: center;
+}
+body{
+    background-color: #f7f8fd;
+    margin: auto;
+}
+h1{
+    text-align: center;
+}
+nav ul{
+    background-color: #f7f8fd;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+
+}
+nav ul li{
+    background-color: #45505a;
+    margin: 4px;
+    list-style-type: none;
+}
+ nav ul a{
+    display: block;
+    width: 100%;
+    height: 100%;
+    color: #FFF;
+    font-size: 1.5em;
+    text-decoration: none;
+    line-height: 68px;
+    padding: 0px 12px;
+}
+a:hover{
+    background-color: #ffa83c;
+    color: #45505a;
+}
+main{
+    background-color:#f7f8fd;
+    padding-bottom: 25px;
+}
+.some-image {
+    width: 300px;
+    height: auto;
+}
+main img{
+    float: right;
+    max-width: 500px;
+    padding-bottom: 16px;
+}
+h2{
+    text-align: center;
+    
+}
+main ul li{
+    list-style: none;
+    text-align: center;
+    font-size: 16px;
+    color:black; 
+    
+}
+main a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    
+    
+}
+ 
+h3{
+    text-align: center;
+    padding: 25px;
+}
+p{
+    text-align: center;
+    padding: 25px;
+}
+footer {
+    font-style: italic;
+    text-align: center;
+    background-color: #45505a;
+    padding: 8px 0 8px 0;
+}
+
+ #contact{
+    text-align: center;
+    background-color: #f7f8fd;
+    float: inline-start;
+ }
+form {
+    font: 13px Arial;
+    background-color: #f7f8fd;
+    padding: 0;
+ }
+ 
+ label {
+    width: 50px;
+    display: inline-block;
+    text-align: right;
+    margin-right: 8px;
+ }
+ 
+ input[type=text], input[type=email], select {
+    box-sizing: border-box; 
+    width: 250px;
+    padding: 10px;   
+    border: .5px solid #45505a;
+    border-radius: 0;
+ }
+ 
+ textarea{
+        width: 40%;
+        height: 100px;
+        padding: 10px;
+        background-color: white;
+ }
+ 
+ input[type=submit] {
+    width: 100px;
+    background-color: #45505a;
+    color: white;
+    padding: 15px;
+    margin: 10px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+ }
+ 
+ input[type=submit]:hover {
+    background-color: #ffa83c;
+ }
